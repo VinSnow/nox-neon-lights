@@ -1,4 +1,7 @@
 {
   "buildCommand": "CI=false npm run build",
-  "outputDirectory": "build"
+  "outputDirectory": "build",
+  "env": {
+    "NODE_VERSION": "18"
+  }
 }
